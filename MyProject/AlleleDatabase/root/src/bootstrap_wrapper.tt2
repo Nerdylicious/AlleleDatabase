@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Bootstrap core CSS -->
+        <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+        <!-- Bootstrap component CSS -->
+        <link rel="stylesheet" href="/static/bootstrap-custom-css/bootstrap-dashboard.css">
+    </head>
+    <body>
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="[% c.uri_for(c.controller('Allele').action_for('list')) %]">Allele Database</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="[% c.uri_for(c.controller('Allele').action_for('list')) %]">
+                                <span class="glyphicon glyphicon-home"></span> Home
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Sign In <span class="glyphicon glyphicon-log-in"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2 sidebar">
+                    <ul class="nav nav-sidebar">
+                        <li>
+                            <a href="[% c.uri_for(c.controller('Allele').action_for('list')) %]">
+                                <span class="glyphicon glyphicon-th-list"></span> Allele List
+                            </a>
+                        </li>
+                        <li>
+                            <a href="[% c.uri_for(c.controller('Allele').action_for('add')) %]">
+                                <span class="glyphicon glyphicon-plus"></span> Add Allele 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content" class="col-sm-10 col-sm-offset-2 main">
+                <!-- Render the content -->
+                [% content %]
+            </div>
+        </div>
+        <!-- These javascript files are loaded here (and not at the head) so that pages load faster -->
+        <!-- JQuery -->
+        <script src="/static/jquery/jquery-1.11.0.min.js"></script>
+
+        <!-- Bootstrap javascript -->
+        <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

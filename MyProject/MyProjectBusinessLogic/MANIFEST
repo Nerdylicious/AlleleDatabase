@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/MyProjectBusinessLogic-MyProjectBusinessLogic.t
+lib/MyProjectBusinessLogic/MyProjectBusinessLogic.pm
+lib/MyProjectBusinessLogic/AddAllele.pm
+lib/MyProjectBusinessLogic/GetAlleleInfo.pm

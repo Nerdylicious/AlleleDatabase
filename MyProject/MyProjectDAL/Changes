@@ -1,0 +1,6 @@
+Revision history for Perl extension MyProjectDAL::Dao.
+
+0.01  Thu Aug 28 11:36:09 2014
+	- original version; created by h2xs 1.23 with options
+		-AX -n MyProjectDAL::Dao
+

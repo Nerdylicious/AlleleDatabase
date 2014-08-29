@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/MyProjectDAL-Dao.t
+lib/MyProjectDAL/Dao.pm

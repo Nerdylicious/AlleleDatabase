@@ -1,0 +1,22 @@
+[% # This is a TT comment. %]
+
+[%- # Provide a title %]
+[% META title = 'Allele List' %]
+
+<div class="panel panel-default">
+    <div class="panel-heading">Allele List</div>
+    <div class="panel-body">
+    </div>
+    <table class="table table-bordered table-hover table-striped">
+        <tr>
+            <td class="col-sm-1">Allele Type</td>
+            <td>Sequence</td>
+        </tr>
+        [% FOREACH allele IN allele_list %]
+            <tr>
+                <td class="col-sm-1">[% allele.allele_type | html %]</td>
+                <td>[% allele.allele_sequence | html %]</td>
+            </tr>
+        [% END %]
+    </table>
+</div>
