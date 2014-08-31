@@ -4,17 +4,17 @@
     Last Updated: August 31, 2014
 
 ## Table of Contents
-1. [Requirements](https://github.com/Nerdylicious/AlleleDatabase/wiki#requirements)
-2. [Create Catalyst MVC Project](https://github.com/Nerdylicious/AlleleDatabase/wiki#create-catalyst-mvc-project)
-3. [Setup Catalyst MVC Project](https://github.com/Nerdylicious/AlleleDatabase/wiki#setup-catalyst-mvc-project)
-4. [Create database using MySQL Workbench](https://github.com/Nerdylicious/AlleleDatabase/wiki#create-database-using-mysql-workbench)
-5. [Setup DBIx::Class ORM](https://github.com/Nerdylicious/AlleleDatabase/wiki#setup-dbixclass-orm)
-6. [Build forms using HTML::FormHandler](https://github.com/Nerdylicious/AlleleDatabase/wiki#build-forms-using-htmlformhandler)
-7. [Create a Database Access Layer](https://github.com/Nerdylicious/AlleleDatabase/wiki#create-a-database-access-layer)
-8. [Create a Business Logic Layer](https://github.com/Nerdylicious/AlleleDatabase/wiki#create-a-business-logic-layer)
-9. [Utilize an Adaptor Design Pattern](https://github.com/Nerdylicious/AlleleDatabase/wiki#utilize-an-adaptor-design-pattern)
-10. [Setup Bootstrap CSS Framework](https://github.com/Nerdylicious/AlleleDatabase/wiki#setup-bootstrap-css-framework)
-11. [Exercises](https://github.com/Nerdylicious/AlleleDatabase/wiki#exercises)
+1. [Requirements](https://github.com/Nerdylicious/AlleleDatabase#requirements)
+2. [Create Catalyst MVC Project](https://github.com/Nerdylicious/AlleleDatabase#create-catalyst-mvc-project)
+3. [Setup Catalyst MVC Project](https://github.com/Nerdylicious/AlleleDatabase#setup-catalyst-mvc-project)
+4. [Create database using MySQL Workbench](https://github.com/Nerdylicious/AlleleDatabase#create-database-using-mysql-workbench)
+5. [Setup DBIx::Class ORM](https://github.com/Nerdylicious/AlleleDatabase#setup-dbixclass-orm)
+6. [Build forms using HTML::FormHandler](https://github.com/Nerdylicious/AlleleDatabase#build-forms-using-htmlformhandler)
+7. [Create a Database Access Layer](https://github.com/Nerdylicious/AlleleDatabase#create-a-database-access-layer)
+8. [Create a Business Logic Layer](https://github.com/Nerdylicious/AlleleDatabase#create-a-business-logic-layer)
+9. [Utilize an Adaptor Design Pattern](https://github.com/Nerdylicious/AlleleDatabase#utilize-an-adaptor-design-pattern)
+10. [Setup Bootstrap CSS Framework](https://github.com/Nerdylicious/AlleleDatabase#setup-bootstrap-css-framework)
+11. [Exercises](https://github.com/Nerdylicious/AlleleDatabase#exercises)
 
 
 ## Requirements 
